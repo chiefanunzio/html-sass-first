@@ -1,0 +1,36 @@
+$bc-color:rgb(80, 1, 80);
+$color-btn:rgb(47, 153, 47);
+$color-title: white;
+$color-sub-title: rgb(24, 158, 211);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: $bc-color;
+    h1{
+        color: $color-title;
+    }
+    h2,h3{
+        color: $color-sub-title;
+    }
+    div{
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        button{
+            padding: 5px 10px;
+            background-color:$color-btn;
+            color:$color-title;
+        }
+    }
+
+
+}

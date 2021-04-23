@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #500150;
+}
+body h1 {
+  color: white;
+}
+body h2, body h3 {
+  color: #189ed3;
+}
+body div {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+body div button {
+  padding: 5px 10px;
+  background-color: #2f992f;
+  color: white;
+}
